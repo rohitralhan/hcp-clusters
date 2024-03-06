@@ -33,7 +33,7 @@ spec:
       storage:
         persistentVolume:
           size: 8Gi
-          storageClassName: lvms-vg1
+          storageClassName: ocs-storagecluster-ceph-rbd
         type: PersistentVolume
     managementType: Managed
   fips: false
