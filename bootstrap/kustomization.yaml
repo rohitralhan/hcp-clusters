@@ -1,0 +1,12 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - 01-namespace.yaml
+  - 02-git-secret.yaml
+  - 03-channel.yaml
+  - 04-subscription.yaml
+  - 05-application.yaml
+  - 06-placementrules.yaml
+  - 07-customrolebinding.yaml

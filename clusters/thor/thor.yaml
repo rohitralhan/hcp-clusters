@@ -1,0 +1,123 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: clusters
+spec: {}
+status: {}
+---
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJjbG91ZC5vcGVuc2hpZnQuY29tIjp7ImF1dGgiOiJiM0JsYm5Ob2FXWjBMWEpsYkdWaGMyVXRaR1YySzI5amJWOWhZMk5sYzNOZk5Ua3pZV1U1TURKbU1EUmlORGMyTXpsbU1qWmpaVE5pTVRNNVpUZGhaREU2UVVZMVNFcE1WVXBYVURoTlVEUkJNekF6TVROSU9GQkdSRkF6TjFZME16Sk5NekZHUWtJMFJUQXlWVlJWUWxrd1ZqZFZNbGs0TnpWUVRFRk5OREphU1E9PSIsImVtYWlsIjoiYWFnZ2Fyd2FAcmVkaGF0LmNvbSJ9LCJxdWF5LmlvIjp7ImF1dGgiOiJiM0JsYm5Ob2FXWjBMWEpsYkdWaGMyVXRaR1YySzI5amJWOWhZMk5sYzNOZk5Ua3pZV1U1TURKbU1EUmlORGMyTXpsbU1qWmpaVE5pTVRNNVpUZGhaREU2UVVZMVNFcE1WVXBYVURoTlVEUkJNekF6TVROSU9GQkdSRkF6TjFZME16Sk5NekZHUWtJMFJUQXlWVlJWUWxrd1ZqZFZNbGs0TnpWUVRFRk5OREphU1E9PSIsImVtYWlsIjoiYWFnZ2Fyd2FAcmVkaGF0LmNvbSJ9LCJyZWdpc3RyeS5jb25uZWN0LnJlZGhhdC5jb20iOnsiYXV0aCI6ImZIVm9ZeTF3YjI5c0xUZGtabU15WmpCaUxUQTBOVEV0TkRoaU1DMDRPV05qTFRrMll6RXdaamc1T1ROaVpUcGxlVXBvWWtkamFVOXBTbE5WZWxWNFRXbEtPUzVsZVVwNlpGZEphVTlwU20xTlZFazFXbFJvYkU5WFVtbGFSMWt3VGxSUk1FOUVWVE5PYlZVd1RVUlNhMDVxVW1wTmJVVXlXbE5LT1M1aFkzSXpXSGhEWDJocVRrbEpPVFl3Y0dGU1VYVktaV0pDZDI1dGRIWkJiRGxSVW1odFV6aFNTM1ZzWkVOa1h6VkZaVkpFU1V3eVJGQnNja3cyZG0xNFZHMDVhREpKY2tkTFlsVlpSRjlwTWpVMFJEQnJiMUZpWkdwTmVFUm1iakIxVEZFellXdHBWR05aVURsTlprSTFVWE5aZDJ4dGIxQndjV2hWWWs5MlEyUkVWRkYyZVhVelRXSnJkelZRVVhKSFRXUTVXR3hLVTJWdlVrRmhkbGhOV21STU5WSk1abTEwVEZFNGFHVXdORVZCUkdKdE5DMHhUSFpJVkRrd01qUm1hemxKVTNkMmFWTjJPREJRUkRRd1EyWlpNUzA0VWxkSU4zbEdSR0pTZVdvd2JFbEthV1psZDBWMFowazBOMFozTUdrdGVFWnBOSGRQUzFrMmJtMXJRVnBTYURGc1UyMUVTeTE1YWtrNVMzSjZSRU4xYUZWVFZGSnVSMmhLVW5KcVVreG9Oa2RCYzFjeVNXWkNaM1Y1TlZCeGRqZHJhSFZEZW5CSVZsUjZWbFppTFRkTlQwZHBjSEZLWVU5ME1sSlVjVzAzVlZSUVIxOUlRVmx5WXpGUVVXeFhUVkpEV2xwalRXOXhkVWwzUmxSZmNVTmxSbnBoVTBkWU1GUkZSV0YxUzFwUFlUQlBNVXRsZGpodFNHZEZSbkZDYXpSaFNtRTFORWRrZEVSR1YySTBVekJKTW5aSGJYaHRWRlV0TW5OR1pGOVNWRmR2UTFkVE16SndlRXRzVXkxeGRUVjNaVWxQYTJkelNubE5OakJJUjFoMk1YWm5XbHBWYTJGRGJ6bERiRzl5ZUhaUloxUkhWVGQyU1hJMmRVNHdOa3hWVDBKT1NraGFTVXhHYlRWcWJubE1ZbnBOYkhsdlJVeE1WRXBNZWpaWE1XSjBia2RFVlhCUVl6QnZURTk1UW5CemJEZGhPVmxJYm14T1QwVk9NRFZTWlhKNmRrVnJTbFJvWlZaNWVVaFFOM0J0YmxrMWFtMHlkME56VGtKeGFsTlJVMHBFTW5sR1ZsQXpRemxDYzNOYWVGOHhSR3d0WmpSNmFsSjZOVk5CYTAxdU9HcFdhRW95WWsxR2FuaFNkMUJ2WjIxQ2VUbEJUa05yV1VocFNYbE9UMlowZEROWFJHTlpabkF4WjFFM2EzcDFNa3hvU1E9PSIsImVtYWlsIjoiYWFnZ2Fyd2FAcmVkaGF0LmNvbSJ9LCJyZWdpc3RyeS5yZWRoYXQuaW8iOnsiYXV0aCI6ImZIVm9ZeTF3YjI5c0xUZGtabU15WmpCaUxUQTBOVEV0TkRoaU1DMDRPV05qTFRrMll6RXdaamc1T1ROaVpUcGxlVXBvWWtkamFVOXBTbE5WZWxWNFRXbEtPUzVsZVVwNlpGZEphVTlwU20xTlZFazFXbFJvYkU5WFVtbGFSMWt3VGxSUk1FOUVWVE5PYlZVd1RVUlNhMDVxVW1wTmJVVXlXbE5LT1M1aFkzSXpXSGhEWDJocVRrbEpPVFl3Y0dGU1VYVktaV0pDZDI1dGRIWkJiRGxSVW1odFV6aFNTM1ZzWkVOa1h6VkZaVkpFU1V3eVJGQnNja3cyZG0xNFZHMDVhREpKY2tkTFlsVlpSRjlwTWpVMFJEQnJiMUZpWkdwTmVFUm1iakIxVEZFellXdHBWR05aVURsTlprSTFVWE5aZDJ4dGIxQndjV2hWWWs5MlEyUkVWRkYyZVhVelRXSnJkelZRVVhKSFRXUTVXR3hLVTJWdlVrRmhkbGhOV21STU5WSk1abTEwVEZFNGFHVXdORVZCUkdKdE5DMHhUSFpJVkRrd01qUm1hemxKVTNkMmFWTjJPREJRUkRRd1EyWlpNUzA0VWxkSU4zbEdSR0pTZVdvd2JFbEthV1psZDBWMFowazBOMFozTUdrdGVFWnBOSGRQUzFrMmJtMXJRVnBTYURGc1UyMUVTeTE1YWtrNVMzSjZSRU4xYUZWVFZGSnVSMmhLVW5KcVVreG9Oa2RCYzFjeVNXWkNaM1Y1TlZCeGRqZHJhSFZEZW5CSVZsUjZWbFppTFRkTlQwZHBjSEZLWVU5ME1sSlVjVzAzVlZSUVIxOUlRVmx5WXpGUVVXeFhUVkpEV2xwalRXOXhkVWwzUmxSZmNVTmxSbnBoVTBkWU1GUkZSV0YxUzFwUFlUQlBNVXRsZGpodFNHZEZSbkZDYXpSaFNtRTFORWRrZEVSR1YySTBVekJKTW5aSGJYaHRWRlV0TW5OR1pGOVNWRmR2UTFkVE16SndlRXRzVXkxeGRUVjNaVWxQYTJkelNubE5OakJJUjFoMk1YWm5XbHBWYTJGRGJ6bERiRzl5ZUhaUloxUkhWVGQyU1hJMmRVNHdOa3hWVDBKT1NraGFTVXhHYlRWcWJubE1ZbnBOYkhsdlJVeE1WRXBNZWpaWE1XSjBia2RFVlhCUVl6QnZURTk1UW5CemJEZGhPVmxJYm14T1QwVk9NRFZTWlhKNmRrVnJTbFJvWlZaNWVVaFFOM0J0YmxrMWFtMHlkME56VGtKeGFsTlJVMHBFTW5sR1ZsQXpRemxDYzNOYWVGOHhSR3d0WmpSNmFsSjZOVk5CYTAxdU9HcFdhRW95WWsxR2FuaFNkMUJ2WjIxQ2VUbEJUa05yV1VocFNYbE9UMlowZEROWFJHTlpabkF4WjFFM2EzcDFNa3hvU1E9PSIsImVtYWlsIjoiYWFnZ2Fyd2FAcmVkaGF0LmNvbSJ9fX0K
+kind: Secret
+metadata:
+  creationTimestamp: null
+  labels:
+    hypershift.openshift.io/safe-to-delete-with-cluster: "true"
+  name: thor-pull-secret
+  namespace: clusters
+---
+apiVersion: hypershift.openshift.io/v1beta1
+kind: HostedCluster
+metadata:
+  creationTimestamp: null
+  name: thor
+  namespace: clusters
+spec:
+  autoscaling: {}
+  controllerAvailabilityPolicy: SingleReplica
+  dns:
+    baseDomain: ""
+  etcd:
+    managed:
+      storage:
+        persistentVolume:
+          size: 8Gi
+          storageClassName: lvms-vg1
+        type: PersistentVolume
+    managementType: Managed
+  fips: false
+  infraID: thor-b2dxc
+  infrastructureAvailabilityPolicy: SingleReplica
+  networking:
+    clusterNetwork:
+    - cidr: 10.132.0.0/14
+    networkType: OVNKubernetes
+    serviceNetwork:
+    - cidr: 172.31.0.0/16
+  platform:
+    kubevirt:
+      baseDomainPassthrough: true
+    type: KubeVirt
+  pullSecret:
+    name: thor-pull-secret
+  release:
+    image: quay.io/openshift-release-dev/ocp-release:4.14.13-x86_64
+  secretEncryption:
+    aescbc:
+      activeKey:
+        name: thor-etcd-encryption-key
+    type: aescbc
+  services:
+  - service: APIServer
+    servicePublishingStrategy:
+      type: LoadBalancer
+  - service: OAuthServer
+    servicePublishingStrategy:
+      type: Route
+  - service: Konnectivity
+    servicePublishingStrategy:
+      type: Route
+  - service: Ignition
+    servicePublishingStrategy:
+      type: Route
+  - service: OVNSbDb
+    servicePublishingStrategy:
+      type: Route
+  sshKey: {}
+status:
+  controlPlaneEndpoint:
+    host: ""
+    port: 0
+---
+apiVersion: v1
+data:
+  key: if7qibuWhyaBOv6pXO7McUdyV2P/cPV6ADJYxothoFc=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  labels:
+    hypershift.openshift.io/safe-to-delete-with-cluster: "true"
+  name: thor-etcd-encryption-key
+  namespace: clusters
+type: Opaque
+---
+apiVersion: hypershift.openshift.io/v1beta1
+kind: NodePool
+metadata:
+  creationTimestamp: null
+  name: thor
+  namespace: clusters
+spec:
+  arch: amd64
+  clusterName: thor
+  management:
+    autoRepair: false
+    upgradeType: Replace
+  nodeDrainTimeout: 0s
+  platform:
+    kubevirt:
+      compute:
+        cores: 2
+        memory: 16Gi
+      rootVolume:
+        persistent:
+          size: 32Gi
+        type: Persistent
+    type: KubeVirt
+  release:
+    image: quay.io/openshift-release-dev/ocp-release:4.14.13-x86_64
+  replicas: 1
+status:
+  replicas: 0
+---

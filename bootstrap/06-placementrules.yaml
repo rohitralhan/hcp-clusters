@@ -1,0 +1,13 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  annotations: {}
+  labels:
+    app: hcpapplication
+  name: hcp-bootstrap-placement-1
+  namespace: hcpclusters
+spec:
+  clusterSelector:
+    matchLabels:
+      local-cluster: 'true'

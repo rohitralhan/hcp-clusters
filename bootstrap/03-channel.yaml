@@ -1,0 +1,15 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: high
+  name: hcprepository
+  namespace: hcpclusters
+spec:
+  pathname: 'https://github.com/rohitralhan/hcp-clusters.git'
+  type: Git
+  insecureSkipVerify: false
+  secretRef:
+    name: gitsecret
+
