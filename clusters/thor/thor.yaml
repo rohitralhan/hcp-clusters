@@ -117,7 +117,9 @@ spec:
     type: KubeVirt
   release:
     image: quay.io/openshift-release-dev/ocp-release:4.14.13-x86_64
-  replicas: 2
+  autoScaling:
+    min: 2
+    max: 4
 status:
   replicas: 0
 ---
