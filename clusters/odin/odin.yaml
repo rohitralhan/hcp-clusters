@@ -25,6 +25,26 @@ metadata:
   namespace: clusters
 spec:
   autoscaling: {}
+  configuration:
+    oauth:
+      identityProviders:
+      - ldap:
+          attributes:
+            email: []
+            id:
+            - dn
+            name:
+            - cn
+            preferredUsername:
+            - uid
+          bindDN: uid=admin,cn=users,cn=accounts,dc=cloud9a,dc=xtoph154,dc=dfw,dc=ocp,dc=run
+          bindPassword:
+            name: ldap-secret
+          insecure: true
+          url: ldap://ipa.cloud9a.xtoph154.dfw.ocp.run/cn=users,cn=accounts,dc=cloud9a,dc=xtoph154,dc=dfw,dc=ocp,dc=run?uid?sub?(memberOf=CN=ocptenant1,CN=groups,CN=accounts,DC=cloud9a,DC=xtoph154,DC=dfw,DC=ocp,DC=run)
+        mappingMethod: claim
+        name: ldapipa
+        type: LDAP
   controllerAvailabilityPolicy: SingleReplica
   dns:
     baseDomain: ""
